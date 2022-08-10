@@ -1,0 +1,12 @@
+body {
+  background-image: url(green6.webp);
+}
+.navbar {
+  background-image: url(green6.webp);
+}
+.carousel-caption {
+  text-align: left;
+}
+.carousel-inner {
+  pointer-events: none;
+}

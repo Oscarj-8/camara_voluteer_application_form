@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Volunteer Application Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form1" action="index.php" method="post">
+        <h3>Personal information</h3>
+        <input
+          id="inp1"
+          name="fullName"
+          type="text"
+          placeholder="Full name"
+          required
+        />
+        <input id="inp1" name="city" type="text" placeholder="City" required />
+        <input
+          id="inp1"
+          name="subCity"
+          type="text"
+          placeholder="Subcity"
+          required
+        />
+        <input
+          id="inp1"
+          name="woreda"
+          type="text"
+          placeholder="Woreda"
+          required
+        />
+        <input
+          id="inp1"
+          name="phone"
+          type="text"
+          placeholder="Phone"
+          required
+        />
+        <input
+          id="inp1"
+          name="email"
+          type="text"
+          placeholder="Email"
+          required
+        />
+        <input
+          id="inp1"
+          type="text"
+          name="educatonalInstitution"
+          placeholder="Educatonal Institution"
+          required
+        />
+        <input
+          id="inp1"
+          name="department"
+          type="text"
+          placeholder="Department"
+          required
+        />
+        <input
+          id="inp1"
+          name="level_year"
+          type="text"
+          placeholder="Level & Year"
+          required
+        />
+        <br />
+        <br />
+
+        <div class="gender-age">
+          <label for="gender">Gender</label>
+
+          <select name="gender" id="gender">
+            <option name="gender" value="m">Male</option>
+            <option name="gender" value="f">Female</option>
+          </select>
+
+          <label for="Age">&emsp;Age</label>
+
+          <select name="Age" id="Age">
+            <option value="17-20">17-20</option>
+            <option value="21-30">21-30</option>
+            <option value="31+">31+</option>
+          </select>
+
+          <div class="btn-box">
+            <button type="button" id="Next1">Next</button>
+          </div>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+
+      <form id="form2" action="#">
+        <h3>Emergency Contact</h3>
+        <input
+          id="inp1"
+          name="Fname"
+          type="text"
+          placeholder="Full Name"
+          required
+        />
+        <input
+          id="inp1"
+          name="r_ship"
+          type="text"
+          placeholder="Relationship"
+          required
+        />
+        <input id="inp1" name="City" type="text" placeholder="City" />
+        <input id="inp1" name="Subcity" type="text" placeholder="Subcity" />
+        <input id="inp1" name="Woreda" type="text" placeholder="Woreda" />
+        <input
+          id="inp1"
+          name="Phone"
+          type="text"
+          placeholder="phone no"
+          required
+        />
+        <input id="inp1" name="Email" type="city" placeholder="Email" />
+
+        <div class="btn-box">
+          <button type="button" id="Back1">Back</button>
+          <button type="button" id="Next2">Next</button>
+        </div>
+      </form>
+
+      <form id="form3" action="#">
+        <h3>Reference Person</h3>
+        <h4>
+          Please list reference, past or present employer, teacher, volunteer
+          supervisor... <br />
+          We CANNOT accept family members or personal friends as references.
+        </h4>
+        <input
+          id="inp1"
+          name="FName"
+          type="text"
+          placeholder="full name"
+          required
+        />
+        <input
+          id="inp1"
+          name="R_ship"
+          type="text"
+          placeholder="relationship"
+          required
+        />
+        <input
+          id="inp1"
+          name="City"
+          type="city"
+          placeholder="phone no"
+          required
+        />
+        <br />
+        <br />
+
+        <h3>Specific Skills</h3>
+        <label for="select1">Hardware and Maintenance</label>
+
+        <select name="select1" id="select1">
+          <option value="No">No</option>
+          <option value="Good">Good</option>
+          <option value="Very Good">Very Good</option>
+          <option value="Excellent">Excellent</option>
+        </select>
+
+        <label for="select2">&emsp;Ubuntu Operating Systems</label>
+
+        <select name="select2" id="select2">
+          <option value="No">No</option>
+          <option value="Good">Good</option>
+          <option value="Very Good">Very Good</option>
+          <option value="Excellent">Excellent</option>
+        </select>
+        <br />
+        <br />
+        <label for="select3">Networking</label>
+
+        <select name="select3" id="select3">
+          <option value="No">No</option>
+          <option value="Good">Good</option>
+          <option value="Very Good">Very Good</option>
+          <option value="Excellent">Excellent</option>
+        </select>
+
+        <label for="select4"
+          >&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;Lab set up /
+          Vetting</label
+        >
+
+        <select name="select4" id="select4">
+          <option value="No">No</option>
+          <option value="Good">Good</option>
+          <option value="Very Good">Very Good</option>
+          <option value="Excellent">Excellent</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="select5">Database</label>
+
+        <select name="select5" id="select5">
+          <option value="No">No</option>
+          <option value="Good">Good</option>
+          <option value="Very Good">Very Good</option>
+          <option value="Excellent">Excellent</option>
+        </select>
+        <br />
+
+        <div class="btn-box">
+          <button type="button" id="Back2">Back</button>
+          <button type="button" id="Next3">Next</button>
+        </div>
+      </form>
+
+      <form action="#" id="form4">
+        <h3>Reasons for Volunteering</h3>
+        <div class="choose">
+          <label for="for-ac-cr">For academic credit:</label>
+          <input type="checkbox" id="for-ac-cr" />
+          <label for="learn-new-sk"
+            >&emsp; &emsp; &emsp;To learn new skills:</label
+          >
+          <input type="checkbox" id="learn-new-sk" />
+          <label for="for-so-int"
+            >&emsp; &emsp; &emsp;For social interaction:</label
+          >
+          <input type="checkbox" id="for-so-intr" /> <br />
+          <br />
+          <label for="to-gain-emp-sk">To gain employment skills:</label>
+          <input type="checkbox" id="to-gain-emp-sk" />
+          <label for="share-sk">&emsp;To share my skills:</label>
+          <input type="checkbox" id="share-sk" />
+          <label for="to-stay-act">&emsp; &emsp; &emsp;To say active:</label>
+          <input type="checkbox" id="to-stay-act" /> <br />
+          <br />
+          <label for="inp1">If other:</label>
+          <input id="inp1" type="text" placeholder="Please Explain..." />
+
+          <div>
+            <h3>More information</h3>
+            <label>Do You Have Physical Limitations?</label>
+            <label for="phy-lim"> No</label>
+            <input type="checkbox" name="phy-lim" id="phy-lim" />
+            <input
+              id="inp1"
+              type="text"
+              placeholder="If yes (Please Explain)..."
+            />
+            <label
+              >Have you ever been volunteer to any othe organization?</label
+            >
+            <label for="phy-lim"> No</label>
+            <input type="checkbox" name="phy-lim" id="phy-lim" />
+            <input
+              id="inp1"
+              type="text"
+              placeholder="If yes (Please Specify)..."
+            />
+          </div>
+
+          <div class="btn-box">
+            <button type="button" id="Back3">Back</button>
+          </div>
+        </div>
+        <span>Upload Your Photo:</span>
+        <div class="file-input">
+          <input type="file" class="form-control" id="inputGroupFile02" />
+        </div>
+
+        <div class="btn-box">
+          <button type="button">Submit</button>
+        </div>
+      </form>
+
+      <!-- <form action="#" id="form5">
+        <h3>More information</h3>
+
+        <label for="phy-lim">Do You Have Physical Limitations</label>
+        <input type="checkbox" name="phy-lim" id="phy-lim" />
+      </form> -->
+
+      <div class="step-row">
+        <div id="progress"></div>
+        <div class="step-col"><small>Step 1</small></div>
+        <div class="step-col"><small>Step 2</small></div>
+        <div class="step-col"><small>Step 3</small></div>
+        <div class="step-col"><small>Step 4</small></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
